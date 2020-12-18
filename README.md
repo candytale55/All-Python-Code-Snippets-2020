@@ -2,11 +2,16 @@
 
 
 ## General info
-Filtering a text (array of words) and removing matching words in an array of unnecessaryWords - Uses methods .filter and ! .includes
+Filtering a text (string) and counting and removing words form an array/list of unnecessary words.
+
+# Goal
+This is done for practice purposes.  The same problem is replicated using different methods and in different programming languages.
 
 
 ## Technologies
 * JavaScript ES6
+* Python 2 
+
 
 ## Inspiration 
-From Codecademy _(2020)_
+From Codecademy course ***Learn JavaScript*** _(2020)_
