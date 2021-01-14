@@ -18,4 +18,5 @@ Pig Latin is a language game, where you move the first letter of the word to the
 ## Setup
 na
 
-## Code Examples
+## Inspiration
+Codecademy exercise (Learn Python 2).  https://www.codecademy.com/learn/learn-python
