@@ -28,7 +28,7 @@ na
 `na`
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is:  _finished_, it does what it says it does. May come back to add more features latter on.
 
 ## Inspiration
 From course _Learn Python 2_ here: https://www.codecademy.com/learn/learn-python
