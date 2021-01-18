@@ -1,7 +1,7 @@
 # ASCII_Block_Letters_PY
 
 ## General info
-The file initials.py displays the initials of your name in block letters (ASCII art) using multiple print() statements.
+The file initials.py displays the initials of your name in block letters (ASCII art) using multiple print() statements. There's the basic exercise solution and my solution lists containing the letters and using a for loop to print them. 
 The file alphabet.py will contain the letters, numbers and symbols in list form.  
 
 ASCII art is a graphic design technique that uses computers for presentation and consists of pictures pieced together from individual characters. REF: https://en.wikipedia.org/wiki/ASCII_art & https://content.codecademy.com/courses/learn-cpp/hello-world/block-letters-hint.png
@@ -26,28 +26,7 @@ ASCII art is a graphic design technique that uses computers for presentation and
 na
 
 ## Code Examples
-`a = [
-"   A    ",
-"  A A   ",
-" A   A  ",
-"A A A A ",
-"A     A ",
-"A     A ",
-"A     A "]
-
-b = [
-"BBBBB  ",
-"B    B ",
-"B    B ",
-"BBBBB  ",
-"B    B ",
-"B    B ",
-"BBBBB  "
-]
-
-for i in range(7):
-  print(a[i],b[i])
-`
+`na`
 
 ## Features
 List of features ready and TODOs for future development
