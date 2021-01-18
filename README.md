@@ -26,7 +26,28 @@ ASCII art is a graphic design technique that uses computers for presentation and
 na
 
 ## Code Examples
-`put-your-code-here`
+`a = [
+"   A    ",
+"  A A   ",
+" A   A  ",
+"A A A A ",
+"A     A ",
+"A     A ",
+"A     A "]
+
+b = [
+"BBBBB  ",
+"B    B ",
+"B    B ",
+"BBBBB  ",
+"B    B ",
+"B    B ",
+"BBBBB  "
+]
+
+for i in range(7):
+  print(a[i],b[i])
+`
 
 ## Features
 List of features ready and TODOs for future development
