@@ -42,6 +42,8 @@ Project is: _in progress_
 
 ## Inspiration
 Based on Codecademy _Learn Python 3_ course _Block Letters_ exercise here: https://www.codecademy.com/learn/learn-python-3
+Snowman example: https://github.com/Codecademy/learn-python/blob/main/1-hello-world/block-letters/snowman.py
 
 ## References
 ASCII art is a graphic design technique that uses computers for presentation and consists of pictures pieced together from individual characters. REF: https://en.wikipedia.org/wiki/ASCII_art & https://content.codecademy.com/courses/learn-cpp/hello-world/block-letters-hint.png
+
