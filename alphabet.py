@@ -32,8 +32,8 @@ b = [
 s = [
 "  SSS  ",
 " S   S ",
-" S     ,
-"  SSS  ,
+" S     ",
+"  SSS  ",
 "     S ",
 " S   S ",
 "  SSS  "
