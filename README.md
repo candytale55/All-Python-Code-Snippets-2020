@@ -6,7 +6,7 @@ larger_sum() takes two lists of numbers as parameters named lst1 and lst2. It re
 The purpose of the project is just personal learning. I may revisit this code to find different solutions or to apply it under other context. 
 
 ## Features
-In file **_larger_sum_extra_basic.js_** : larger_sum() loops through each list separately and adds to variables sum1 and sum2. After looping is done it, compares the two sums in an if statement and return the correct list. 
+In file **_larger_sum_extra_basic.py_** : larger_sum() loops through each list separately and adds to variables sum1 and sum2. After looping is done it, compares the two sums in an if statement and return the correct list. 
 
 #### To-do list:
 * The excersise solution is too basic. It should be possible to do it with builtin methods and/or removing variables sum1 and sum2 = working directly with the lists.
