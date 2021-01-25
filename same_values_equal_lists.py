@@ -31,9 +31,5 @@ def same_values_numbers(lst1, lst2):
   return same_values
 
 print(same_values_numbers([5, 1, -10, 3, 3], [5, 10, -10, 3, 5]))
+# returns [5, -10, 3]
 
-
-
-# For reference:
-# https://discuss.codecademy.com/t/how-could-i-use-list-comprehension-to-solve-this/458265
-# https://discuss.codecademy.com/t/how-can-i-make-this-function-work-for-lists-of-unequal-length/376643
