@@ -1,0 +1,2 @@
+# substring_between_letters_Py_3
+substring_between_letters takes a string named _word_, a single character named _start_, and another character named _end_. This function should return the substring between the first occurrence of _start_ and _end_ in word. If _start_ or _end_ are not in _word_, the function should return _word_.  For example, substring_between_letters("apple", "p", "e") should return "pl".
