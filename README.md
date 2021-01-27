@@ -6,8 +6,7 @@ The purpose of the project is just personal learning. I may revisit this code to
 
 
 #### To-do list:
-* Check why in , the sequence should be first condtion = False, else True. 
-
+* Find out why if you use an if - else flow, the sequence should be first if condtion = False, else True. 
 
 ## Technologies
 * Python 3
