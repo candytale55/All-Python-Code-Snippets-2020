@@ -17,7 +17,7 @@ The function iterates through _word_, and compares if the letter is already in t
 NA - It's only coding examples, there's no setup.
 
 ## Status
-Project is: _in progress_, _finished_, - may come back and improve it, or not.
+Project is: _finished_, - may come back and improve it, or not.
 
 
 ## References
