@@ -1,0 +1,20 @@
+class Facade:
+  pass
+
+facade_1 = Facade()
+
+facade_1_type = type(facade_1)
+print(facade_1_type)
+# <class '__main__.Facade'>
+
+# In Python __main__ means “this current file that we’re running” and so one could read the output from type() to mean “_the class 
+# Facade that was defined here, in the script you’re currently running._”
+
+
+# A class instance is also called an _object_. 
+# The pattern of defining classes and creating objects to represent the responsibilities of a program is known as Object Oriented Programming or OOP.
+
+# Instantiation takes a class and turns it into an object, the type() function does the opposite of that. 
+# When called with an object, it returns the class that the object is an instance of.
+
+# REF: https://discuss.codecademy.com/t/what-does-type-return-for-imported-classes/358193
