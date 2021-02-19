@@ -11,7 +11,7 @@ The purpose of the project is just personal learning. I may revisit this code to
 
   * Function _print_student_record_ prints the information in each student record (tests, quizzes . . . etc. in order). There is also a _print_student_record_unordered_ that just prints the contents of the student dictionary.
   
-  ![Example screenshot](print_student_record.jpg)
+      ![Example screenshot](print_student_record.jpg)
 
   * **Calculate the average:** function _average_ takes a list of numbers and returns the average. It calls the built-in sum() function with the numbers list as a parameter and stores the result as float() in a variable called total. Then divides total by the length of the numbers list to calculate the average. 
 
@@ -21,7 +21,7 @@ The purpose of the project is just personal learning. I may revisit this code to
 
   * **Get the results of the whole class:** function _get_class_average_ takes one argument _class_list_ that is a list containing the three students. Creates an empty list called results where the averages will be appended. For each student item in the class_list, calculates get_average(student) and then call results.append(). Returns the result of calling average() with results.
 
-![Example screenshot](students_grades.jpg)
+    ![Example screenshot](students_grades.jpg)
 
 
 ## Table of contents
