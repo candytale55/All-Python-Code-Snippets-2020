@@ -42,4 +42,4 @@ NA - It's only coding examples, there's no setup.
 Project is:  _finished_
 
 ## References
-Based on Codecademy's _Learn Python 3_ course, _Student Becomes the Teacher_
+Based on Codecademy's _Learn Python 2_ course, _Student Becomes the Teacher_
