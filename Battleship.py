@@ -1,26 +1,53 @@
 # Python 2
 
-
-# Creating the board:
-# variable board is set it equal to an empty list. Using the built-in range() Python function, looping 5 times to generate the board, which we’ll make into a 5 x 5 grid of all "O"s, for “ocean.”
+from random import randint
 
 board = []
 
-board_rows = 5
-for i in range(0, board_rows):
-  board.append(['O ' * board_rows])
+for x in range(0,5):
+  board.append(["O"] * 5)
 
-# Function _print_board_ takes a single argument, _board_in_. It prints the board out like a grid with each row on its own line using a for loop to iterates through each row in board and print it to the screen. To get rid of the quote marks and commas part of the list structure we use the _.join_ method with a " " string. 
-
-def print_board (board_in):
-  for row in board_in:
+def print_board(board):
+  for row in board:
     print " ".join(row)
 
 print_board(board)
 
+def random_row(board):
+  return randint(0, len(board) - 1)
 
+def random_col(board):
+  return randint(0, len(board[0]) - 1)
 
+ship_row = random_row(board)
+ship_col = random_col(board)
+print ship_row
+print ship_col
 
+# Everything from here on should go in your for loop!
 
+for turn in range(4):
+  print "Turn", turn + 1
+  guess_row = int(raw_input("Guess Row: "))
+  guess_col = int(raw_input("Guess Col: "))
+
+  if guess_row == ship_row and guess_col == ship_col:
+    print "Congratulations! You sank my battleship!"
+    break   
+  else:
+    if guess_row not in range(5) or \
+      guess_col not in range(5):
+      print "Oops, that's not even in the ocean."
+    elif board[guess_row][guess_col] == "X":
+      print( "You guessed that one already." )
+    else:
+      print "You missed my battleship!"
+      board[guess_row][guess_col] = "X"
+    print_board(board)
+    print ""
+    if turn == 3:
+      print "Game Over"
+
+# https://discuss.codecademy.com/t/why-do-i-get-a-break-outside-of-loop-error/339281
 # https://discuss.codecademy.com/t/how-is-this-list-of-lists-going-to-look-like-a-board/339266
 # https://discuss.codecademy.com/t/how-do-i-print-each-row-of-the-board/339267
