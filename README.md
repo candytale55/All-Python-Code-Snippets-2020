@@ -37,7 +37,8 @@ Note that we could just call randint(0, 4), but we use len(board) - 1 in case we
 #### Game Over:
 * If the user guesses wrong on their last turn it prints "Game Over". It must print  no matter what the cause of the misses. So, under the else that accounts for misses and  after the if/elif/else statements that check for the reason the player missed we set an if statement. Our turn variable starts at 0 and goes to 3, we will want to end the game when turn equals 3 (4 turns).
 
-#### To-do list:
+### To-do list:
+* The zero-based list may confuse the user, who may be expecting the coordinates to start at 1.
 * Make a two-player game.
 * Make multiple battleships: Make sure that you don’t place battleships on top of each other on the game board and make to balance the size of the board with the number of ships so the game is still challenging and fun to play.
 * Make battleships of different sizes: this is trickier than it sounds. All the parts of the battleship need to be vertically or horizontally touching and you’ll need to make sure you don’t accidentally place part of a ship off the side of the board.
