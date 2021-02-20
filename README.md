@@ -22,6 +22,15 @@ def random_col(board_in):
   
 Note that we could just call randint(0, 4), but we use len(board) - 1 in case we want to change the board size later.
 
+#### Seek the batleship:
+* Using _raw_input_ asks the user for input and returns it as a string, so we wrap the raw_inputs with int() to convert them to int, to get the player’s guess.
+
+#### Determine win /lose
+* We have the actual location of the ship and the player’s guess so we can check to see if the player guessed right. For a guess to be right, guess_col should be equal to ship_col and guess_row should be equal to ship_row.
+
+* Checks if guess_row equals ship_row and guess_col equals ship_col. If that is the case, prints out a note to the user stating he won, and if it isn't, that he lost 
+
+
 
 
 #### To-do list:
@@ -58,3 +67,4 @@ Based on Codecademy's _Learn Python 2_ course, _Battleship!_
 #### Relevant discussion links
 * https://discuss.codecademy.com/t/can-i-make-the-game-have-2-players-and-more-ships/339263
 * https://discuss.codecademy.com/t/how-does-the-join-method-work/339268
+* https://discuss.codecademy.com/t/how-should-my-conditional-statements-be-nested/339275
