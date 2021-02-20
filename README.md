@@ -6,10 +6,21 @@ The purpose of the project is just personal learning.
 
 ## Description
 
-#### **Creating the board:**
-* A variable _board_ is set it equal to an empty list. Using the built-in _range()_ Python function, looping 5 times will generate the board, which will be a 5 x 5 grid of all "O"s, for “ocean.”
+#### Creating the board:
+* A variable _board_ is set it equal to an empty list. Using the built-in _range()_ Python function, looping 5 times will generate the board, which will be a 5 x 5 grid of all "O"s, for “ocean.”. 
 
 * Function **_print_board_** takes a single argument, _board_in_. It prints the board out like a grid with each row on its own line using a for loop to iterates through each row in board and print it to the screen.  To get rid of the quote marks and commas part of the list structure we use the _.join_ method with a " " string. 
+
+
+#### Hiding the battleship:
+* Since we have a 2-dimensional list, we’ll use two variables to store the ship’s location, _ship_row_ and _ship_col_. We'll use randint so that the location is random in two functions _random_col_  and _random_row_ that will return a random index.
+
+``` 
+def random_col(board_in):   
+  return randint(0, len(board_in) - 1) 
+```
+  
+Note that we could just call randint(0, 4), but we use len(board) - 1 in case we want to change the board size later.
 
 
 
