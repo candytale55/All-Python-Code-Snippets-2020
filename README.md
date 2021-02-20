@@ -30,6 +30,8 @@ Note that we could just call randint(0, 4), but we use len(board) - 1 in case we
 
 * Checks if guess_row equals ship_row and guess_col equals ship_col. If that is the case, prints out a note to the user stating he won, and if it isn't, that he lost 
 
+#### Repeat for 4 turns:
+* A for loop that repeats the guessing and checking part of your game for 4 turns, like the example above.  At the beginning of each iteration, print "Turn", turn + 1 to let the player know what turn they are on.
 
 
 
