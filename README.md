@@ -9,7 +9,8 @@ The purpose of the project is just personal learning.
 #### **Creating the board:**
 * A variable _board_ is set it equal to an empty list. Using the built-in _range()_ Python function, looping 5 times will generate the board, which will be a 5 x 5 grid of all "O"s, for “ocean.”
 
-* Function **_print_board_** takes a single argument, _board_in_. It prints the board out like a grid with each row on its own line using a for loop to iterates through each row in board and print it to the screen.
+* Function **_print_board_** takes a single argument, _board_in_. It prints the board out like a grid with each row on its own line using a for loop to iterates through each row in board and print it to the screen.  To get rid of the quote marks and commas part of the list structure we use the _.join_ method with a " " string. 
+
 
 
 #### To-do list:
@@ -45,3 +46,4 @@ Based on Codecademy's _Learn Python 2_ course, _Battleship!_
 
 #### Relevant discussion links
 * https://discuss.codecademy.com/t/can-i-make-the-game-have-2-players-and-more-ships/339263
+* https://discuss.codecademy.com/t/how-does-the-join-method-work/339268
