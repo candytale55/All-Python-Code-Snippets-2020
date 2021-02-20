@@ -5,10 +5,12 @@ Build a simplified, one-player version of the classic board game Battleship with
 The purpose of the project is just personal learning. 
 
 ## Description
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+
+#### **Creating the board:**
+* A variable _board_ is set it equal to an empty list. Using the built-in _range()_ Python function, looping 5 times will generate the board, which will be a 5 x 5 grid of all "O"s, for “ocean.”
+
+* Function **_print_board_** takes a single argument, _board_in_. It prints the board out like a grid with each row on its own line using a for loop to iterates through each row in board and print it to the screen.
+
 
 #### To-do list:
 * Wow improvement to be done 1
