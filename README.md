@@ -34,6 +34,8 @@ Note that we could just call randint(0, 4), but we use len(board) - 1 in case we
 * A for loop that repeats the guessing and checking part of your game for 4 turns, like the example above.  At the beginning of each iteration, print "Turn", turn + 1 to let the player know what turn they are on.
 
 
+#### Game Over:
+* If the user guesses wrong on their last turn it prints "Game Over". It must print  no matter what the cause of the misses. So, under the else that accounts for misses and  after the if/elif/else statements that check for the reason the player missed we set an if statement. Our turn variable starts at 0 and goes to 3, we will want to end the game when turn equals 3 (4 turns).
 
 #### To-do list:
 * Wow improvement to be done 1
@@ -70,3 +72,4 @@ Based on Codecademy's _Learn Python 2_ course, _Battleship!_
 * https://discuss.codecademy.com/t/can-i-make-the-game-have-2-players-and-more-ships/339263
 * https://discuss.codecademy.com/t/how-does-the-join-method-work/339268
 * https://discuss.codecademy.com/t/how-should-my-conditional-statements-be-nested/339275
+* https://discuss.codecademy.com/t/how-can-i-be-sure-i-tested-my-battleship-project-properly/339283
