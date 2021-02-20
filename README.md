@@ -54,7 +54,7 @@ Note that we could just call randint(0, 4), but we use len(board) - 1 in case we
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](screenshot.jpg)
 
 ## Technologies
 * Python 2
