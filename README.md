@@ -7,7 +7,9 @@ The purpose of the project is just personal learning.
 ## Description
 
 #### Creating the board:
-* A variable _board_ is set it equal to an empty list. Using the built-in _range()_ Python function, looping 5 times will generate the board, which will be a 5 x 5 grid of all "O"s, for “ocean.”. 
+* A variable _board_ is set it equal to an empty list. This will represent the board. "O" will mean "Ocean", "X" will mean missed shot.
+
+* Function **_create_board_** takes one int parameter _board_size_. Using the built-in _range()_ Python function, looping the number of times indicated by _board_size_ will generate the board, a grid of all "O"s, for “ocean.”. Right now it will have an equal size of rows and columns. 
 
 * Function **_print_board_** takes a single argument, _board_in_. It prints the board out like a grid with each row on its own line using a for loop to iterates through each row in board and print it to the screen.  To get rid of the quote marks and commas part of the list structure we use the _.join_ method with a " " string. 
 
