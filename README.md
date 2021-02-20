@@ -24,27 +24,30 @@ def random_col(board_in):
   
 Note that we could just call randint(0, 4), but we use len(board) - 1 in case we want to change the board size later.
 
-#### Seek the batleship:
-* Using _raw_input_ asks the user for input and returns it as a string, so we wrap the raw_inputs with int() to convert them to int, to get the player’s guess.
+#### Playing the game:
+* Function **_play_battleship()_** plays a game of battleship.  The user has 4 chances to "sink the battleship". At the beginning of each iteration, it prints "Turn", turn + 1 to let the player know what turn they are on.
+ 
+  ##### Seeking the batleship:
+  * Using _raw_input_ asks the user for input and returns it as a string, so we wrap the raw_inputs with int() to convert them to int, to get the player’s guess. The zero-based indexed list may confuse the user, who may be expecting the coordinates to start at 1, so to the int number we substract 1. 
 
-#### Determine win /lose
-* We have the actual location of the ship and the player’s guess so we can check to see if the player guessed right. For a guess to be right, guess_col should be equal to ship_col and guess_row should be equal to ship_row.
+  ##### Determine a win
+  * We have the actual location of the ship and the player’s guess so we can check to see if the player guessed right. The function checks if guess_row equals ship_row and guess_col equals ship_col. If that is the case, prints out a note to the user stating he won and breaks the loop.
+  
+  ##### Handle incorrect guesses:
+  * The function will repeat the guessing and checking part of the game for 4 turns. The user can guess the battleship coordinates and win, or may miss the spot the user guessed will be changed to "X"  on the board.
+  * There are two other incorrect guesses that will be treated differently:   
+    * If they enter a guess that’s off the board - meaning it exceeds the size of the board or is a negative number (not in range(board_size)) the user will get a specific message.
+    * If they enter a guess for a spot they’ve already guessed (handled by an elif that checkes if guessed location already has an ‘X’), they will get a specific message.
 
-* Checks if guess_row equals ship_row and guess_col equals ship_col. If that is the case, prints out a note to the user stating he won, and if it isn't, that he lost 
 
-#### Repeat for 4 turns:
-* A for loop that repeats the guessing and checking part of your game for 4 turns, like the example above.  At the beginning of each iteration, print "Turn", turn + 1 to let the player know what turn they are on.
-
-
-#### Game Over:
-* If the user guesses wrong on their last turn it prints "Game Over". It must print  no matter what the cause of the misses. So, under the else that accounts for misses and  after the if/elif/else statements that check for the reason the player missed we set an if statement. Our turn variable starts at 0 and goes to 3, we will want to end the game when turn equals 3 (4 turns).
+  ##### Game Over:
+  * If the user guesses wrong on their last turn it prints "Game Over". It must print  no matter what the cause of the misses. So, under the else that accounts for misses and  after the if/elif/else statements that check for the reason the player missed we set an if statement. Our turn variable starts at 0 and goes to 3, we will want to end the game when turn equals 3 (4 turns).
 
 ### To-do list:
-* The zero-based list may confuse the user, who may be expecting the coordinates to start at 1.
+* Make custom-boards with different number of rows vs columns.
 * Make a two-player game.
 * Make multiple battleships: Make sure that you don’t place battleships on top of each other on the game board and make to balance the size of the board with the number of ships so the game is still challenging and fun to play.
 * Make battleships of different sizes: this is trickier than it sounds. All the parts of the battleship need to be vertically or horizontally touching and you’ll need to make sure you don’t accidentally place part of a ship off the side of the board.
-
 
 ## Table of contents
 * [General info](#general-info)
