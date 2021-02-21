@@ -10,3 +10,7 @@ The premise: "You’re a programmer working for an organization that is trying t
 
 ## Inspiration 
 From Codecademy ***STRING METHODS*** from course ***Learn Python 3*** _(2020)_
+
+## Reference:
+These may come handy.
+* https://youtu.be/lxcFa7ldCi0
