@@ -4,6 +4,9 @@ Practice problems in Python 2 from Codecademy.  The goal is to apply programming
 ## General info
 The purpose of the project is just personal learning.  
 
+#### To-Dos
+* Calculate factorial using recursion (factorial_no_recursive.py)
+
 ## Technologies
 * Python 2
 
