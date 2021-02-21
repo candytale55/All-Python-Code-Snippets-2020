@@ -16,3 +16,7 @@ Project is: _finished_, - may come back and improve it, or not.
 
 ## References
 Based on Codecademy's _Learn Python 3_ course, _CODE CHALLENGE: DICTIONARIES_ exercises
+
+#### Useful links:
+* https://youtu.be/f17xPfIXct0 C
+* https://youtu.be/f17xPfIXct0 B
