@@ -12,11 +12,6 @@ class NewClass(object):
 
 
 
-class NewClass(object):
-  # Class magic here
-  pass
-
-
 # __init__()
 #  we start our class definition off with an odd-looking function: __init__(), required for classes, and it’s used to initialize the objects it creates. 
 
