@@ -30,6 +30,27 @@ class Animal(object):
  to use self as the first parameter in __init__(), so you should use this so that other people will understand your code.
 """
 
+class Animal(object):
+  def __init__(self, name):
+    self.name = name
+
+
+zebra = Animal("Jeffrey")
+print zebra.name  # Jeffrey
+
+
+
+
+# Access attributes of our objects using dot notation. 
+
+class Square(object):
+  def __init__(self):
+    self.sides = 4   # 4
+ 
+my_shape = Square()
+print my_shape.sides
+
 # https://discuss.codecademy.com/t/what-does-it-mean-to-inherit-from-the-object-class/340587
 # https://discuss.codecademy.com/t/what-is-the-difference-between-a-class-and-an-object/340593
 # https://discuss.codecademy.com/t/what-is-self/340594
+# https://discuss.codecademy.com/t/how-should-i-indent-my-code-to-create-a-new-animal-object/340595
