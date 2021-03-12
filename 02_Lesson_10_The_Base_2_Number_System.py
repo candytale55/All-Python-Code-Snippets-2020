@@ -1,4 +1,5 @@
-""" In Python, you can write numbers in binary format by starting the number with 0b. When doing so, the numbers can be operated on like any other number. """
+""" In Python, you can write numbers in binary format by starting the number with 0b. 
+When doing so, the numbers can be operated on like any other number. """
 
 
 print 0b1,    #1
